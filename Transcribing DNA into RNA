@@ -1,0 +1,16 @@
+"""
+Created on Fri Jan 28 16:08:46 2022
+
+@author: thali
+"""
+
+
+def completRNA (dna):
+    basecomplementDNA={'T':'U','G':'G','A':'A','C':'C'}
+    letters= list(dna)
+    letters = [basecomplementDNA[base]for base in letters]
+    print(''.join(letters))
+   
+
+dna='GATGGAACTTGACTACGTAAATT'
+completRNA(dna)
