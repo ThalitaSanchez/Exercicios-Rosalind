@@ -1,0 +1,17 @@
+"""
+Created on Fri Jan 28 15:14:00 2022
+
+@author: thali
+"""
+
+
+def countDNA (dna):
+    valorA= int(dna.count('A'))
+    valorC= int(dna.count('C'))
+    valorG= int(dna.count('G'))
+    valorT= int(dna.count('T'))
+    print(valorA,valorC,valorG,valorT)
+    
+ dna= 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'   
+                   
+countDNA(dna)
